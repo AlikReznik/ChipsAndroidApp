@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "349584295033",
+    "project_id": "chips-android-studio-project",
+    "storage_bucket": "chips-android-studio-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349584295033:android:50cecef4a5ce27c06dc0a8",
+        "android_client_info": {
+          "package_name": "com.example.chips_androidstudioproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349584295033-t2bc65osu25p5i0l0q9j1kq7usee0b9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVURtolffnrshMLbEVgY93G3qfqEUSTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349584295033-t2bc65osu25p5i0l0q9j1kq7usee0b9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
