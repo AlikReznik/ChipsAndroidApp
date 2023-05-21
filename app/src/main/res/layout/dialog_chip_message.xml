@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ImageView_ChipMessage"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+    <TextView
+        android:id="@+id/TextView_ChipTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/TextView_ChipDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginBottom="2dp"
+        android:text="Username" />
+
+    <View
+        android:id="@+id/Divider_Section2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"
+        android:text="Description" />
+    <TextView
+        android:id="@+id/TextView_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"
+        android:text="Date" />
+
+</LinearLayout>
