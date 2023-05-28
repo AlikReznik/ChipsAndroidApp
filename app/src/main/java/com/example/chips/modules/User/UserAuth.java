@@ -98,7 +98,6 @@ public class UserAuth {
                         chat.put("Image", "");
                         chat.put("Users", null);
 
-                        DataFlowControl.authUser.addChat("CWKJnN6zQcN3cgmJHZeD", chat);
                         UserFirestore.createUser();
 
                         notifyOnSignup();
@@ -187,6 +186,10 @@ public class UserAuth {
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(DataFlowControl.context, "Email was updated", Toast.LENGTH_SHORT).show();
+
+                            signout();
+                            Intent intent = new Intent(DataFlowControl.context, LoginActivity.class);
+                            DataFlowControl.context.startActivity(intent);
                         }else{
                             Toast.makeText(DataFlowControl.context, "An error accrued, "+task.getException(), Toast.LENGTH_SHORT).show();
                         }
